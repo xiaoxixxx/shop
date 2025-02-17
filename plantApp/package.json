@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@climblee/uv-ui": "^1.1.20",
+    "dayjs": "^1.11.13",
+    "pinia": "^2.2.8",
+    "vant": "^4.9.9",
+    "vue-clipboard3": "^2.0.0",
+    "vue-i18n": "^10.0.5",
+    "z-paging": "2.7.12"
+  }
+}

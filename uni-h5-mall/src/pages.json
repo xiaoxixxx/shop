@@ -1,0 +1,133 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabbar/index"
+		},
+		{
+			"path": "pages/tabbar/classify"
+		},
+		{
+			"path": "pages/tabbar/cart"
+		},
+		{
+			"path": "pages/tabbar/my"
+		},
+
+		{
+			"path": "pages/goods/goodsDeatils"
+		},
+		{
+			"path": "pages/login/login"
+		},
+		{
+			"path": "pages/tempPage/test"
+		},
+		{
+			"path": "pages/login/register"
+		},
+		{
+			"path": "pages/login/forgetPwd"
+		},
+		{
+			"path": "pages/login/codeVerify"
+		},
+		{
+			"path": "pages/login/updatePwd"
+		},
+		{
+			"path": "pages/login/updateSuccess"
+		},
+		{
+			"path": "pages/goods/search"
+		},
+		{
+			"path": "pages/goods/searchResult"
+		},
+		{
+			"path": "pages/goods/comment"
+		},
+		{
+			"path": "pages/pay/index"
+		},
+		{
+			"path": "pages/pay/address"
+		},
+		{
+			"path": "pages/pay/payResult"
+		},
+		{
+			"path": "pages/class/class"
+		},
+		{
+			"path": "pages/class/class2"
+		},
+		{
+			"path": "pages/class/classSearch"
+		},
+		{
+			"path": "pages/setting/index"
+		},
+		{
+			"path" : "pages/my/points"
+		},
+		{
+			"path" : "pages/pay/orderDeatil"
+		},
+		{
+			"path" : "pages/pay/orderList"
+		},
+		
+		{
+			"path" : "pages/my/questions"
+		},
+		{
+			"path" : "pages/my/addressList"
+		},
+		{
+			"path" : "pages/my/favorite"
+		},
+		{
+			"path" : "pages/my/footprint"
+		},
+		{
+			"path" : "pages/pay/addReviews"
+		},
+		{
+			"path" : "pages/chat/index"
+		},
+		{
+			"path": "pages/pay/cancelResult"
+		},
+		{
+			"path" : "pages/my/feedback"
+		},
+		{
+			"path" : "pages/setting/updatePwd"
+		},
+		{
+			"path" : "pages/my/article"
+		},
+		{
+			"path" : "pages/setting/userInfo"
+		},
+		{
+			"path": "pages/setting/updateMobile"
+		}
+	],
+
+	"globalStyle": {
+		"navigationBarTitleText": "CAAF",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom"
+		
+	},
+	"uniIdRouter": {},
+	"easycom": {
+		"custom": {
+			 "^(?!z-paging-refresh|z-paging-load-more)z-paging(.*)": "z-paging/components/z-paging$1/z-paging$1.vue",
+			"custom-loading": "@/components/loading/loading.vue"
+		}
+	}
+
+}

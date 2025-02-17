@@ -1,0 +1,299 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol li {
+    list-style: none;
+}
+
+
+@for $i from 1 to 100 {
+    .mgtb#{$i} {
+        margin-top: #{$i}px;
+        margin-bottom: #{$i}px;
+    }
+
+    .mglr#{$i} {
+        margin-left: #{$i}px;
+        margin-right: #{$i}px;
+    }
+
+    .pdtb#{$i} {
+        padding-top: #{$i}px;
+        padding-bottom: #{$i}px;
+    }
+
+    .pdlr#{$i} {
+        padding-left: #{$i}px;
+        padding-right: #{$i}px;
+    }
+
+    .mt#{$i} {
+        margin-top: #{$i}px;
+    }
+
+    .pt#{$i} {
+        padding-top: #{$i}px;
+    }
+
+    .ml#{$i} {
+        margin-left: #{$i}px;
+    }
+
+    .pl#{$i} {
+        padding-left: #{$i}px;
+    }
+
+    .mb#{$i} {
+        margin-bottom: #{$i}px;
+    }
+
+    .pb#{$i} {
+        padding-bottom: #{$i}px;
+    }
+
+    .mr#{$i} {
+        margin-right: #{$i}px;
+    }
+
+    .pr#{$i} {
+        padding-right: #{$i}px;
+    }
+
+    .ww#{$i} {
+        width: #{$i}#{'px'};
+    }
+
+    .hh#{$i} {
+        height: #{$i}#{'px'};
+    }
+
+    .bbo#{$i} {
+        border-radius: #{$i}px;
+    }
+
+    .f#{$i} {
+        font-size: #{$i}px;
+    }
+}
+
+
+.text_center {
+    text-align: center;
+    line-height: 100%;
+}
+
+
+
+
+// 布局
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+//
+.row_center {
+    justify-content: center;
+}
+
+.col_center {
+    align-items: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.around {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.flex_col {
+    flex-direction: column;
+}
+
+// 单行隐藏
+.textHiddenOne {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.textHiddenTwo {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    overflow: hidden;
+}
+
+.textHiddenThree {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    overflow: hidden;
+}
+
+.textHidden {
+    // 多行隐藏
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    overflow: hidden;
+}
+
+.borderB {
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.borderT {
+    border-top: 1px solid;
+}
+
+.borderL {
+    border-left: 1px solid;
+}
+
+.borderR {
+    border-right: 1px solid;
+}
+
+.text_white {
+    color: #fff;
+}
+
+	.content{
+		background: #F3F3F3;
+		min-height: 100vh;
+	}
+.color999 {
+    color: #999;
+}
+
+.mainf8Bg {
+    background: #f8f8f8;
+}
+
+.colorDel {
+    color: #9A9FB1;
+}
+
+.color5E {
+    color: #5E647C;
+}
+.colorBlue{
+		color: #3178FC;
+	}
+.colorContent {
+    color: #6B34EC;
+}
+.colorFc{
+	color: #FC2A2E;
+}
+.van-back-top {
+    background-color: #6B34EC !important;
+
+}
+.color333{
+	color: #333;
+}
+
+
+.bgDe {
+    background: #EDEDEE;
+}
+.colorCCC{
+	color: #ccc;
+}
+.colorAf{
+	color: #AFAFAF;
+}
+.color7C{
+	color: #7C7C7C;
+}
+.colorD7{
+	color: #D7D7D7;
+}
+.bgFf {
+    background: #fff;
+}
+.flex1{
+	flex: 1;
+}
+.colorGreen{
+	color: #00A25D;
+}
+.hasBeforeLine {
+    position: relative;
+    padding-left: 13px;
+}
+.color09{
+	color: #090909;
+}
+.hasBeforeLine::before {
+    position: absolute;
+    display: block;
+    content: '';
+    left: 0;
+    top: 50%;
+	transform: translateY(-50%);
+    height: 15px;
+    width: 6px;
+    background: #3D80FC;
+    border-radius: 10px;
+}
+	.nullDataBoxEl{
+		position: fixed;
+		top: 120px;
+		left: 50%;
+		display: flex;
+		align-items: center;
+		transform: translateX(-50%);
+		z-index: 99;
+		background: #fff;
+		.nullDataEl{
+			margin-top: 120px;
+			img{
+				width: 152px;
+				height: 148px;
+			}
+			.feedBackEl{
+				height: 44px;
+				background: linear-gradient( 91deg, #8A3DDF 0%, #7F2ADD 100%);
+				border-radius: 48px;
+				width: 200px;
+			}
+		}
+	}
+
+.nameItem {
+	.uni-input{
+		width: 100%;
+	}
+	.uni-input-placeholder{
+		color: #D7D7D7;
+	}
+	
+}

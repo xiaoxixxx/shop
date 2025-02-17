@@ -1,0 +1,76 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	{
+		"path": "pages/tab/index"
+	},
+	{
+		"path" : "pages/home/login"
+	},
+	{
+		"path" : "pages/setting/index"
+	},
+	{
+		"path" : "pages/setting/updatePwd"
+	},
+	{
+		"path" : "pages/gd/recive"
+	},
+	{
+		"path" : "pages/gd/reciveSuccess"
+	},
+	{
+		"path" : "pages/gd/warehouse"
+	},
+	{
+		"path" : "pages/gd/warehouseSuccess"
+	},
+	{
+		"path" : "pages/gd/warehouseMen"
+	},
+	{
+		"path" : "pages/gd/warehouseDeatil"
+	},
+	{
+		"path" : "pages/gd/goodsMen"
+	},
+	{
+		"path" : "pages/home/goodsList"
+	},
+		{
+			"path" : "pages/home/scanCode"
+		},
+		{
+			"path" : "pages/home/receiveSuccess"
+		},
+		{
+			"path" : "pages/home/warehouse"
+		},
+		{
+			"path" : "pages/home/wareSuccess"
+		},
+		{
+			"path" : "pages/shelf/index"
+		},
+		{
+			"path" : "pages/shelf/add"
+		},
+		{
+			"path" : "pages/shelf/deatil"
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom"
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^(?!z-paging-refresh|z-paging-load-more)z-paging(.*)": "z-paging/components/z-paging$1/z-paging$1.vue"
+		}
+	},
+	
+	"uniIdRouter": {}
+}
